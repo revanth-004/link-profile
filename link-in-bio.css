@@ -18,6 +18,13 @@ p {
   color: white;
   font-style: normal;
 }
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .HagridFont {
   font-family: HagridFont;
 }
@@ -40,7 +47,6 @@ p {
 .title-name {
   margin-bottom: 10px;
   color: white;
-
   /*-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
 }
@@ -62,6 +68,28 @@ p {
 .about-me {
   font-size: 0.6rem;
   font-weight: 400;
+}
+
+.website-title h6 {
+  font-size: 1rem;
+  margin: 1vh;
+}
+.website-icon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.website-icon div {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+.website-icon p {
+  font-size: 0.8rem;
 }
 .link-container {
   margin: 10% 0;
