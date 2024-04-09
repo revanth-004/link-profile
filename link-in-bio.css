@@ -60,6 +60,7 @@ a:visited {
   object-fit: cover;
   height: 45vh;
   width: 100%;
+  transition: opacity 2s ease-out;
 }
 
 .about-me-container {
