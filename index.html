@@ -335,13 +335,9 @@
       function profileSlide() {
         slidePointer === 1 ? (slidePointer = 2) : (slidePointer = 1);
         let profileImg = document.querySelector(".profile-img");
-        profileImg.style.opacity = 0;
-        setTimeout(function () {
-          profileImg.src = "src/profile-img-" + slidePointer + ".jpg";
-          profileImg.style.opacity = 1;
-        }, 500);
+        profileImg.src = "src/profile-img-" + slidePointer + ".jpg";
       }
-      setInterval(profileSlide, 5000);
+      setInterval(profileSlide, 4000);
     </script>
   </body>
 </html>
